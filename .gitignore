@@ -1,0 +1,40 @@
+# Deployment scripts (may contain server credentials)
+*.ps1
+*.sh
+
+# SSH keys and certificates
+*.pem
+*.key
+*.p12
+id_rsa*
+
+# Environment files
+.env
+.env.*
+
+# Deployment docs with credentials
+DEPLOY*.md
+GENERIC_DEPLOY_GUIDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Deployment State & Artifacts
+.deploy_manifest.json
+.last_deployment
+.deploy_stage/
+_backup_maker.php
+
+# Large Archives & Backups
+*.zip
+*.tar.gz
+gonow_website_final.zip
+
+# Testing & Logs
+input.txt
+*.log

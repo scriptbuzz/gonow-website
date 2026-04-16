@@ -1,0 +1,7 @@
+# CloudFlare Pages — Redirects
+# Note: CloudFlare Pages automatically serves clean URLs (no .html extension) for static files.
+# No rewrite rules needed for .html files — adding them causes infinite redirect loops.
+
+# Trailing slash normalisation
+/privacy/         /privacy.html          301
+/terms/           /terms.html            301
