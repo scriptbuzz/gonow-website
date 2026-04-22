@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     // Fetch last updated date from GitHub repository (Replaced with Pre-commit Hook)
-    const LAST_UPDATED_DATE = "April 15, 2026, 09:37 PM EDT"; // This will be auto-updated by Git pre-commit hook
+    const LAST_UPDATED_DATE = "April 22, 2026, 05:24 PM EDT"; // This will be auto-updated by Git pre-commit hook
     const lastUpdatedSpan = document.querySelector('#last-updated .placeholder');
     if (lastUpdatedSpan && LAST_UPDATED_DATE) {
         lastUpdatedSpan.textContent = LAST_UPDATED_DATE;
