@@ -2,8 +2,8 @@
 
 # GoNow Systems — Marketing Website
 
-**The public-facing marketing website for [GoNow Systems](https://gonow-systems.com)**  
-An AI-native logistics management platform for delivery teams.
+**Master Your Deliveries. Optimize Your Growth.**  
+The public-facing marketing website for [GoNow Systems](https://gonow-systems.com) — an AI-native logistics management platform built for modern delivery teams.
 
 [![Cloudflare Pages](https://img.shields.io/badge/Hosted%20on-Cloudflare%20Pages-F38020?logo=cloudflare&logoColor=white)](https://pages.cloudflare.com)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -20,11 +20,51 @@ An AI-native logistics management platform for delivery teams.
 
 ---
 
-## Overview
+## About GoNow
 
-A static HTML/CSS/JS website hosted on **Cloudflare Pages**, serving as the landing page for the GoNow product. It showcases features, the tech stack, and provides a contact/inquiry form.
+GoNow was born from a simple observation: **logistics is the heartbeat of modern commerce, but managing it shouldn't be a headache.**
 
-Deployment is fully automatic — every push to `main` triggers a Cloudflare Pages build and goes live in seconds.
+Founded in **2026**, GoNow gives small and medium-sized delivery teams the same high-tech tools used by global giants — combining advanced web technologies with real-world logistics insights to create a platform that is powerful and easy to use. Whether you're delivering groceries, furniture, or medical supplies, GoNow ensures your journey is optimized, your team is empowered, and your customers are satisfied.
+
+> GoNow is a fully AI-native platform — conceived, architected, and built entirely using **[Claude Code](https://claude.ai/code) by Anthropic** and **Google Gemini**, without a single line written in a traditional IDE.
+
+---
+
+## Features
+
+| Module | Description |
+|--------|-------------|
+| **Smart Route Planning** | AI-assisted route orchestration with Smart IDs (`#YYMMDD.n`), drag-and-drop scheduling, and real-time team assignment |
+| **Reliable Verification (PoD)** | Watermarked photo proofs (store name, GPS, timestamp) with on-device compression and 3-photo compliance enforcement |
+| **Warehouse & Inventory** | Consolidated picking manifests, per-truck loading plans, and one-click professional PDF slips |
+| **Analytics & Performance** | Completion rates, driver performance metrics, deep-dive visit history, and CSV/PDF exports |
+| **Enterprise Management** | RBAC with 4 roles, login audit logs, storage cost controls, and one-click disaster recovery |
+
+---
+
+## Why GoNow
+
+| Advantage | Detail |
+|-----------|--------|
+| Zero-entry data | Paste a Google Maps URL — coordinates are parsed automatically |
+| Fraud-proof PoD | GPS proximity + server-side timestamps burned into watermarked images |
+| High-density scheduling | Manage 50+ routes from a single screen without losing orientation |
+| Warehouse-to-road sync | Single source of truth — stop updates reflect instantly across all views |
+| Cost-first infrastructure | Storage analyzer, recursive cleanup, and an emergency upload kill switch |
+| Native bilingual (EN / AR) | Structural RTL support built from day one, not bolted on |
+| Lean & fast | Vite + React 19 — loads instantly on low-end smartphones in the field |
+
+---
+
+## Pricing
+
+> GoNow is currently in active development (MVP stage). All pricing CTAs direct users to the inquiry form — access is granted by request.
+
+| Plan | Price | Highlights |
+|------|-------|------------|
+| **Starter** | Free | Up to 500 deliveries/mo · 5 team members · Standard PoD · EN only |
+| **Pro** | $49 / mo | Unlimited deliveries · 25 members · AI planning · EN + AR · GPS watermark · CSV/JSON export |
+| **Enterprise** | Custom | Unlimited everything · Warehouse manifests · PDF loading slips · Dedicated support · Custom dev |
 
 ---
 
@@ -68,15 +108,13 @@ No build tools. No frameworks. No dependencies to install.
 
 ## Development
 
-Open any `.html` file directly in a browser, or spin up a local server:
-
 ```bash
 npx serve .
 # or
 python3 -m http.server 8080
 ```
 
-No install step required.
+Open any `.html` file directly in a browser. No install step required.
 
 ---
 
@@ -88,14 +126,19 @@ git commit -m "your change"
 git push origin main
 ```
 
-Cloudflare Pages detects the push and deploys automatically. No CI configuration needed.
+Cloudflare Pages detects the push and deploys automatically.
 
 ---
 
-## About GoNow
+## Contact
 
-GoNow is a fully AI-native logistics platform — conceived, architected, and built entirely using **[Claude Code](https://claude.ai/code) by Anthropic** and **Google Gemini**, without a single line written in a traditional IDE.
+| Channel | Details |
+|---------|---------|
+| Email | support@gonow.app |
+| Office | Msheireb Downtown, Doha, Qatar |
+| LinkedIn | [linkedin.com/company/gonow](https://linkedin.com/company/gonow) |
+| Twitter / X | [@gonowapp](https://twitter.com/gonowapp) |
 
-The platform itself (separate repository) is built with React 19, TypeScript, Firebase, Tailwind CSS, Framer Motion, Leaflet, and Google Maps.
+---
 
-Developed by [Michael Bitar](https://artiportal.com).
+Developed by [Michael Bitar](https://artiportal.com) · © 2026 GoNow Planner. All rights reserved.
